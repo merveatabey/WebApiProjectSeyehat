@@ -14,7 +14,6 @@ namespace ApiProjectSeyehat.Controllers
     public class DestinationController : Controller
     {
 
-
         private readonly AppDbContext _context;
         public DestinationController(AppDbContext context)
         {
@@ -37,48 +36,47 @@ namespace ApiProjectSeyehat.Controllers
             return await _context.FindAsync<Destination>(id);
         }
 
-
-
-
-
-
-
-
-
-
-
-
-        // GET: api/values
-        [HttpGet]
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
-
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public string Get(int id)
-        {
-            return "value";
-        }
-
-        // POST api/values
         [HttpPost]
-        public void Post([FromBody]string value)
+        [Route("AddDestination")]
+        public async Task<Destination> AddDestination([FromBody] Destination destination)
         {
+            _context.Add(destination);
+            await _context.SaveChangesAsync();
+            return destination;
         }
 
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
+        [HttpPut]
+        [Route("UpdateDestination")]
+        public async Task<Destination> UpdateDestination(int id, [FromBody]Destination destination)
         {
+            _context.Update(destination);
+            await _context.SaveChangesAsync();
+            return destination;
         }
 
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+
+
+        [HttpDelete]
+        [Route("DeleteDestination/{id}")]
+        public bool DeleteDestination(int id)
         {
+            var islem = false;
+            var result = _context.Destinations.Find(id);
+            if (result != null)
+            {
+                islem = true;
+                _context.Remove(result);
+                _context.SaveChanges();
+            }
+            else
+            {
+                return islem;
+            }
+            return islem;
         }
+
+
+
     }
 }
 

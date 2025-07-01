@@ -1,26 +1,38 @@
 {
   "Version": 1,
-  "Hash": "ADM03y7ReE8be7nrH9N3UodNFbbkOhu3VFD0kQJMtAs=",
+  "Hash": "OzNK7lA59R0x9glPQYmbkf8T05HruJKZNSLFV2zt5qg=",
   "Source": "MvcProjectSeyehat",
   "BasePath": "_content/MvcProjectSeyehat",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/ApiProjectSeyehat/ApiProjectSeyehat.csproj",
+      "Version": 2,
+      "Source": "ApiProjectSeyehat",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [
     {
       "Name": "MvcProjectSeyehat/wwwroot",
       "Source": "MvcProjectSeyehat",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/obj/Debug/net7.0/scopedcss/bundle/MvcProjectSeyehat.styles.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/obj/Debug/net7.0/scopedcss/bundle/MvcProjectSeyehat.styles.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/obj/Debug/net7.0/scopedcss/bundle/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/obj/Debug/net7.0/scopedcss/bundle/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "MvcProjectSeyehat.styles.css",
       "AssetKind": "All",
@@ -31,13 +43,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/obj/Debug/net7.0/scopedcss/bundle/MvcProjectSeyehat.styles.css"
+      "OriginalItemSpec": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/obj/Debug/net7.0/scopedcss/bundle/MvcProjectSeyehat.styles.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/obj/Debug/net7.0/scopedcss/projectbundle/MvcProjectSeyehat.bundle.scp.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/obj/Debug/net7.0/scopedcss/projectbundle/MvcProjectSeyehat.bundle.scp.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/obj/Debug/net7.0/scopedcss/projectbundle/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/obj/Debug/net7.0/scopedcss/projectbundle/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "MvcProjectSeyehat.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +60,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/obj/Debug/net7.0/scopedcss/projectbundle/MvcProjectSeyehat.bundle.scp.css"
+      "OriginalItemSpec": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/obj/Debug/net7.0/scopedcss/projectbundle/MvcProjectSeyehat.bundle.scp.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/.DS_Store",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/.DS_Store",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": ".DS_Store",
       "AssetKind": "All",
@@ -68,10 +80,10 @@
       "OriginalItemSpec": "wwwroot/.DS_Store"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/css/main.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/css/main.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/css/main.css",
       "AssetKind": "All",
@@ -85,10 +97,10 @@
       "OriginalItemSpec": "wwwroot/assets/css/main.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/about-2.jpg",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/about-2.jpg",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/about-2.jpg",
       "AssetKind": "All",
@@ -102,10 +114,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/about-2.jpg"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/about.jpg",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/about.jpg",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/about.jpg",
       "AssetKind": "All",
@@ -119,10 +131,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/about.jpg"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/apple-touch-icon.png",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/apple-touch-icon.png",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/apple-touch-icon.png",
       "AssetKind": "All",
@@ -136,10 +148,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/apple-touch-icon.png"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/clients/client-1.png",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/clients/client-1.png",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/clients/client-1.png",
       "AssetKind": "All",
@@ -153,10 +165,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/clients/client-1.png"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/clients/client-2.png",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/clients/client-2.png",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/clients/client-2.png",
       "AssetKind": "All",
@@ -170,10 +182,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/clients/client-2.png"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/clients/client-3.png",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/clients/client-3.png",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/clients/client-3.png",
       "AssetKind": "All",
@@ -187,10 +199,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/clients/client-3.png"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/clients/client-4.png",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/clients/client-4.png",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/clients/client-4.png",
       "AssetKind": "All",
@@ -204,10 +216,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/clients/client-4.png"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/clients/client-5.png",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/clients/client-5.png",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/clients/client-5.png",
       "AssetKind": "All",
@@ -221,10 +233,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/clients/client-5.png"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/clients/client-6.png",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/clients/client-6.png",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/clients/client-6.png",
       "AssetKind": "All",
@@ -238,10 +250,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/clients/client-6.png"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/favicon.png",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/favicon.png",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/favicon.png",
       "AssetKind": "All",
@@ -255,10 +267,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/favicon.png"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/hero-bg.jpg",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/hero-bg.jpg",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/hero-bg.jpg",
       "AssetKind": "All",
@@ -272,10 +284,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/hero-bg.jpg"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/logo.png",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/logo.png",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/logo.png",
       "AssetKind": "All",
@@ -289,10 +301,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/logo.png"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/page-title-bg.webp",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/page-title-bg.webp",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/page-title-bg.webp",
       "AssetKind": "All",
@@ -306,10 +318,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/page-title-bg.webp"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/portfolio/app-1.jpg",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/portfolio/app-1.jpg",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/portfolio/app-1.jpg",
       "AssetKind": "All",
@@ -323,10 +335,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/portfolio/app-1.jpg"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/portfolio/app-2.jpg",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/portfolio/app-2.jpg",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/portfolio/app-2.jpg",
       "AssetKind": "All",
@@ -340,10 +352,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/portfolio/app-2.jpg"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/portfolio/app-3.jpg",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/portfolio/app-3.jpg",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/portfolio/app-3.jpg",
       "AssetKind": "All",
@@ -357,10 +369,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/portfolio/app-3.jpg"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/portfolio/books-1.jpg",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/portfolio/books-1.jpg",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/portfolio/books-1.jpg",
       "AssetKind": "All",
@@ -374,10 +386,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/portfolio/books-1.jpg"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/portfolio/books-2.jpg",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/portfolio/books-2.jpg",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/portfolio/books-2.jpg",
       "AssetKind": "All",
@@ -391,10 +403,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/portfolio/books-2.jpg"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/portfolio/books-3.jpg",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/portfolio/books-3.jpg",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/portfolio/books-3.jpg",
       "AssetKind": "All",
@@ -408,10 +420,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/portfolio/books-3.jpg"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/portfolio/branding-1.jpg",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/portfolio/branding-1.jpg",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/portfolio/branding-1.jpg",
       "AssetKind": "All",
@@ -425,10 +437,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/portfolio/branding-1.jpg"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/portfolio/branding-2.jpg",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/portfolio/branding-2.jpg",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/portfolio/branding-2.jpg",
       "AssetKind": "All",
@@ -442,10 +454,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/portfolio/branding-2.jpg"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/portfolio/branding-3.jpg",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/portfolio/branding-3.jpg",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/portfolio/branding-3.jpg",
       "AssetKind": "All",
@@ -459,10 +471,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/portfolio/branding-3.jpg"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/portfolio/product-1.jpg",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/portfolio/product-1.jpg",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/portfolio/product-1.jpg",
       "AssetKind": "All",
@@ -476,10 +488,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/portfolio/product-1.jpg"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/portfolio/product-2.jpg",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/portfolio/product-2.jpg",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/portfolio/product-2.jpg",
       "AssetKind": "All",
@@ -493,10 +505,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/portfolio/product-2.jpg"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/portfolio/product-3.jpg",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/portfolio/product-3.jpg",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/portfolio/product-3.jpg",
       "AssetKind": "All",
@@ -510,10 +522,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/portfolio/product-3.jpg"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/services-1.jpg",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/services-1.jpg",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/services-1.jpg",
       "AssetKind": "All",
@@ -527,10 +539,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/services-1.jpg"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/services-2.jpg",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/services-2.jpg",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/services-2.jpg",
       "AssetKind": "All",
@@ -544,10 +556,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/services-2.jpg"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/services-3.jpg",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/services-3.jpg",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/services-3.jpg",
       "AssetKind": "All",
@@ -561,10 +573,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/services-3.jpg"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/services.jpg",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/services.jpg",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/services.jpg",
       "AssetKind": "All",
@@ -578,10 +590,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/services.jpg"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/team/team-1.jpg",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/team/team-1.jpg",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/team/team-1.jpg",
       "AssetKind": "All",
@@ -595,10 +607,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/team/team-1.jpg"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/team/team-2.jpg",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/team/team-2.jpg",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/team/team-2.jpg",
       "AssetKind": "All",
@@ -612,10 +624,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/team/team-2.jpg"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/team/team-3.jpg",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/team/team-3.jpg",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/team/team-3.jpg",
       "AssetKind": "All",
@@ -629,10 +641,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/team/team-3.jpg"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/testimonials-bg.jpg",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/testimonials-bg.jpg",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/testimonials-bg.jpg",
       "AssetKind": "All",
@@ -646,10 +658,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/testimonials-bg.jpg"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/testimonials/testimonials-1.jpg",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/testimonials/testimonials-1.jpg",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/testimonials/testimonials-1.jpg",
       "AssetKind": "All",
@@ -663,10 +675,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/testimonials/testimonials-1.jpg"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/testimonials/testimonials-2.jpg",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/testimonials/testimonials-2.jpg",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/testimonials/testimonials-2.jpg",
       "AssetKind": "All",
@@ -680,10 +692,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/testimonials/testimonials-2.jpg"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/testimonials/testimonials-3.jpg",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/testimonials/testimonials-3.jpg",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/testimonials/testimonials-3.jpg",
       "AssetKind": "All",
@@ -697,10 +709,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/testimonials/testimonials-3.jpg"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/testimonials/testimonials-4.jpg",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/testimonials/testimonials-4.jpg",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/testimonials/testimonials-4.jpg",
       "AssetKind": "All",
@@ -714,10 +726,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/testimonials/testimonials-4.jpg"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/testimonials/testimonials-5.jpg",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/testimonials/testimonials-5.jpg",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/testimonials/testimonials-5.jpg",
       "AssetKind": "All",
@@ -731,10 +743,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/testimonials/testimonials-5.jpg"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/working-1.jpg",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/working-1.jpg",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/working-1.jpg",
       "AssetKind": "All",
@@ -748,10 +760,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/working-1.jpg"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/working-2.jpg",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/working-2.jpg",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/working-2.jpg",
       "AssetKind": "All",
@@ -765,10 +777,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/working-2.jpg"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/working-3.jpg",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/working-3.jpg",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/working-3.jpg",
       "AssetKind": "All",
@@ -782,10 +794,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/working-3.jpg"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/working-4.jpg",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/img/working-4.jpg",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/img/working-4.jpg",
       "AssetKind": "All",
@@ -799,10 +811,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/working-4.jpg"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/js/main.js",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/js/main.js",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/js/main.js",
       "AssetKind": "All",
@@ -816,10 +828,10 @@
       "OriginalItemSpec": "wwwroot/assets/js/main.js"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/scss/Readme.txt",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/scss/Readme.txt",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/scss/Readme.txt",
       "AssetKind": "All",
@@ -833,10 +845,10 @@
       "OriginalItemSpec": "wwwroot/assets/scss/Readme.txt"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/aos/aos.cjs.js",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/aos/aos.cjs.js",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/aos/aos.cjs.js",
       "AssetKind": "All",
@@ -850,10 +862,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/aos/aos.cjs.js"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/aos/aos.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/aos/aos.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/aos/aos.css",
       "AssetKind": "All",
@@ -867,10 +879,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/aos/aos.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/aos/aos.esm.js",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/aos/aos.esm.js",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/aos/aos.esm.js",
       "AssetKind": "All",
@@ -884,10 +896,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/aos/aos.esm.js"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/aos/aos.js",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/aos/aos.js",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/aos/aos.js",
       "AssetKind": "All",
@@ -901,10 +913,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/aos/aos.js"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/aos/aos.js.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/aos/aos.js.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/aos/aos.js.map",
       "AssetKind": "All",
@@ -918,10 +930,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/aos/aos.js.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap-icons/bootstrap-icons.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap-icons/bootstrap-icons.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap-icons/bootstrap-icons.css",
       "AssetKind": "All",
@@ -935,10 +947,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap-icons/bootstrap-icons.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap-icons/bootstrap-icons.json",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap-icons/bootstrap-icons.json",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap-icons/bootstrap-icons.json",
       "AssetKind": "All",
@@ -952,10 +964,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap-icons/bootstrap-icons.json"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap-icons/bootstrap-icons.min.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap-icons/bootstrap-icons.min.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap-icons/bootstrap-icons.min.css",
       "AssetKind": "All",
@@ -969,10 +981,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap-icons/bootstrap-icons.min.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap-icons/bootstrap-icons.scss",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap-icons/bootstrap-icons.scss",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap-icons/bootstrap-icons.scss",
       "AssetKind": "All",
@@ -986,10 +998,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap-icons/bootstrap-icons.scss"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff",
       "AssetKind": "All",
@@ -1003,10 +1015,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2",
       "AssetKind": "All",
@@ -1020,10 +1032,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-grid.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-grid.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1037,10 +1049,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/css/bootstrap-grid.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-grid.css.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-grid.css.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1054,10 +1066,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/css/bootstrap-grid.css.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-grid.min.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-grid.min.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1071,10 +1083,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/css/bootstrap-grid.min.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-grid.min.css.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-grid.min.css.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1088,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/css/bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-grid.rtl.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-grid.rtl.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1105,10 +1117,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/css/bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-grid.rtl.css.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-grid.rtl.css.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1122,10 +1134,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1139,10 +1151,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1156,10 +1168,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-reboot.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-reboot.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1173,10 +1185,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/css/bootstrap-reboot.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-reboot.css.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-reboot.css.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1190,10 +1202,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/css/bootstrap-reboot.css.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-reboot.min.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-reboot.min.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1207,10 +1219,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/css/bootstrap-reboot.min.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-reboot.min.css.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-reboot.min.css.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1224,10 +1236,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1241,10 +1253,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1258,10 +1270,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1275,10 +1287,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1292,10 +1304,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-utilities.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-utilities.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1309,10 +1321,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/css/bootstrap-utilities.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-utilities.css.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-utilities.css.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1326,10 +1338,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/css/bootstrap-utilities.css.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-utilities.min.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-utilities.min.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1343,10 +1355,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/css/bootstrap-utilities.min.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-utilities.min.css.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-utilities.min.css.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1360,10 +1372,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1377,10 +1389,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1394,10 +1406,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1411,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1428,10 +1440,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap.css",
       "AssetKind": "All",
@@ -1445,10 +1457,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/css/bootstrap.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap.css.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap.css.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1462,10 +1474,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/css/bootstrap.css.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap.min.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap.min.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1479,10 +1491,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/css/bootstrap.min.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap.min.css.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap.min.css.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1496,10 +1508,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/css/bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap.rtl.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap.rtl.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1513,10 +1525,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/css/bootstrap.rtl.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap.rtl.css.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap.rtl.css.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1530,10 +1542,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/css/bootstrap.rtl.css.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap.rtl.min.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap.rtl.min.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1547,10 +1559,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/css/bootstrap.rtl.min.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap.rtl.min.css.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/bootstrap.rtl.min.css.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1564,10 +1576,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/prb.txt",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/css/prb.txt",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/css/prb.txt",
       "AssetKind": "All",
@@ -1581,10 +1593,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/css/prb.txt"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/js/bootstrap.bundle.js",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/js/bootstrap.bundle.js",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1598,10 +1610,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/js/bootstrap.bundle.js"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/js/bootstrap.bundle.js.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/js/bootstrap.bundle.js.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1615,10 +1627,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/js/bootstrap.bundle.js.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1632,10 +1644,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1649,10 +1661,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/js/bootstrap.esm.js",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/js/bootstrap.esm.js",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1666,10 +1678,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/js/bootstrap.esm.js"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/js/bootstrap.esm.js.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/js/bootstrap.esm.js.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1683,10 +1695,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/js/bootstrap.esm.js.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/js/bootstrap.esm.min.js",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/js/bootstrap.esm.min.js",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1700,10 +1712,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/js/bootstrap.esm.min.js"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/js/bootstrap.esm.min.js.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/js/bootstrap.esm.min.js.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1717,10 +1729,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/js/bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/js/bootstrap.js",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/js/bootstrap.js",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/js/bootstrap.js",
       "AssetKind": "All",
@@ -1734,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/js/bootstrap.js"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/js/bootstrap.js.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/js/bootstrap.js.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1751,10 +1763,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/js/bootstrap.js.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/js/bootstrap.min.js",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/js/bootstrap.min.js",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1768,10 +1780,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/js/bootstrap.min.js"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/js/bootstrap.min.js.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/bootstrap/js/bootstrap.min.js.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/bootstrap/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1785,10 +1797,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/bootstrap/js/bootstrap.min.js.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/glightbox/css/glightbox.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/glightbox/css/glightbox.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/glightbox/css/glightbox.css",
       "AssetKind": "All",
@@ -1802,10 +1814,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/glightbox/css/glightbox.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/glightbox/css/glightbox.min.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/glightbox/css/glightbox.min.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/glightbox/css/glightbox.min.css",
       "AssetKind": "All",
@@ -1819,10 +1831,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/glightbox/css/glightbox.min.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/glightbox/js/glightbox.js",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/glightbox/js/glightbox.js",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/glightbox/js/glightbox.js",
       "AssetKind": "All",
@@ -1836,10 +1848,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/glightbox/js/glightbox.js"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/glightbox/js/glightbox.min.js",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/glightbox/js/glightbox.min.js",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/glightbox/js/glightbox.min.js",
       "AssetKind": "All",
@@ -1853,10 +1865,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/glightbox/js/glightbox.min.js"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/imagesloaded/imagesloaded.pkgd.min.js",
       "AssetKind": "All",
@@ -1870,10 +1882,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/isotope-layout/isotope.pkgd.js",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/isotope-layout/isotope.pkgd.js",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/isotope-layout/isotope.pkgd.js",
       "AssetKind": "All",
@@ -1887,10 +1899,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/isotope-layout/isotope.pkgd.js"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/isotope-layout/isotope.pkgd.min.js",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/isotope-layout/isotope.pkgd.min.js",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/isotope-layout/isotope.pkgd.min.js",
       "AssetKind": "All",
@@ -1904,10 +1916,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/isotope-layout/isotope.pkgd.min.js"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/php-email-form/validate.js",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/php-email-form/validate.js",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/php-email-form/validate.js",
       "AssetKind": "All",
@@ -1921,10 +1933,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/php-email-form/validate.js"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/purecounter/purecounter_vanilla.js",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/purecounter/purecounter_vanilla.js",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/purecounter/purecounter_vanilla.js",
       "AssetKind": "All",
@@ -1938,10 +1950,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/purecounter/purecounter_vanilla.js"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/purecounter/purecounter_vanilla.js.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/purecounter/purecounter_vanilla.js.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/purecounter/purecounter_vanilla.js.map",
       "AssetKind": "All",
@@ -1955,10 +1967,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/purecounter/purecounter_vanilla.js.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/swiper/swiper-bundle.min.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/swiper/swiper-bundle.min.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/swiper/swiper-bundle.min.css",
       "AssetKind": "All",
@@ -1972,10 +1984,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/swiper/swiper-bundle.min.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/swiper/swiper-bundle.min.js",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/swiper/swiper-bundle.min.js",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/swiper/swiper-bundle.min.js",
       "AssetKind": "All",
@@ -1989,10 +2001,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/swiper/swiper-bundle.min.js"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/swiper/swiper-bundle.min.js.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/assets/vendor/swiper/swiper-bundle.min.js.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "assets/vendor/swiper/swiper-bundle.min.js.map",
       "AssetKind": "All",
@@ -2006,10 +2018,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/swiper/swiper-bundle.min.js.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/css/site.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/css/site.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -2023,10 +2035,10 @@
       "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/favicon.ico",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/favicon.ico",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -2040,10 +2052,10 @@
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/forms/contact.php",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/forms/contact.php",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "forms/contact.php",
       "AssetKind": "All",
@@ -2057,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot/forms/contact.php"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/forms/newsletter.php",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/forms/newsletter.php",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "forms/newsletter.php",
       "AssetKind": "All",
@@ -2074,10 +2086,10 @@
       "OriginalItemSpec": "wwwroot/forms/newsletter.php"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/forms/Readme.txt",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/forms/Readme.txt",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "forms/Readme.txt",
       "AssetKind": "All",
@@ -2091,10 +2103,10 @@
       "OriginalItemSpec": "wwwroot/forms/Readme.txt"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/js/site.js",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/js/site.js",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -2108,10 +2120,10 @@
       "OriginalItemSpec": "wwwroot/js/site.js"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -2125,10 +2137,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -2142,10 +2154,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -2159,10 +2171,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -2176,10 +2188,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -2193,10 +2205,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -2210,10 +2222,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -2227,10 +2239,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -2244,10 +2256,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -2261,10 +2273,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2278,10 +2290,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2295,10 +2307,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2312,10 +2324,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2329,10 +2341,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2346,10 +2358,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2363,10 +2375,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2380,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2397,10 +2409,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2414,10 +2426,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2431,10 +2443,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2448,10 +2460,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2465,10 +2477,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2482,10 +2494,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2499,10 +2511,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2516,10 +2528,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -2533,10 +2545,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -2550,10 +2562,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -2567,10 +2579,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -2584,10 +2596,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -2601,10 +2613,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -2618,10 +2630,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -2635,10 +2647,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -2652,10 +2664,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2669,10 +2681,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2686,10 +2698,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2703,10 +2715,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2720,10 +2732,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2737,10 +2749,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2754,10 +2766,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2771,10 +2783,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2788,10 +2800,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2805,10 +2817,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2822,10 +2834,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2839,10 +2851,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2856,10 +2868,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/LICENSE",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/bootstrap/LICENSE",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2873,10 +2885,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/LICENSE"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2890,10 +2902,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2907,10 +2919,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -2924,10 +2936,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2941,10 +2953,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2958,10 +2970,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2975,10 +2987,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2992,10 +3004,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/jquery-validation/LICENSE.md",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -3009,10 +3021,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/jquery/dist/jquery.js",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/jquery/dist/jquery.js",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -3026,10 +3038,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/jquery/dist/jquery.min.js",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -3043,10 +3055,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/jquery/dist/jquery.min.map",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -3060,10 +3072,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Identity": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/jquery/LICENSE.txt",
+      "Identity": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/lib/jquery/LICENSE.txt",
       "SourceId": "MvcProjectSeyehat",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/a1-03/Projects/ApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
+      "ContentRoot": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/wwwroot/",
       "BasePath": "_content/MvcProjectSeyehat",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
