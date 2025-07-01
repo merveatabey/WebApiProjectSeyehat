@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="Birden Çok Proje">
+  <MonoDevelop.Ide.ItemProperties.ApiProjectSeyehat PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.MvcProjectSeyehat PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Birden Çok Proje" Name="Birden Çok Proje">
+      <Items>
+        <StartupItem ItemId="{F23CE312-6EC8-49A6-A027-54D2A8C85DED}" ItemName="ApiProjectSeyehat" ConfigurationId="https" />
+        <StartupItem ItemId="{04D40E9E-32CB-49AD-979B-9F9CD808C2F7}" ItemName="MvcProjectSeyehat" ConfigurationId="https" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.Workbench ActiveDocument="ApiProjectSeyehat/Controllers/DestinationController.cs">
+    <Files>
+      <File FileName="ApiProjectSeyehat/Controllers/DestinationController.cs" Line="41" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ApiProjectSeyehat" expanded="True" selected="True">
+            <Node name="ApiProjectSeyehat">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+            </Node>
+            <Node name="MvcProjectSeyehat">
+              <Node name="Views" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
