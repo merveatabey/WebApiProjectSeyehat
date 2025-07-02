@@ -2,16 +2,18 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.MvcProjectSeyehat PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MvcProjectSeyehat/Views/Travel/Index.cshtml">
+  <MonoDevelop.Ide.ItemProperties.ApiProjectSeyehat PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MvcProjectSeyehat/Controllers/TravelController.cs">
     <Files>
-      <File FileName="MvcProjectSeyehat/Controllers/LoginController.cs" Line="21" Column="1" />
-      <File FileName="MvcProjectSeyehat/Controllers/UserController.cs" Line="31" Column="64" />
-      <File FileName="MvcProjectSeyehat/Views/Shared/_AdminLayout.cshtml" Line="112" Column="56" />
-      <File FileName="MvcProjectSeyehat/Controllers/TravelController.cs" Line="20" Column="84" />
-      <File FileName="MvcProjectSeyehat/Views/Travel/Index.cshtml" Line="45" Column="37" />
-      <File FileName="ApiProjectSeyehat/Models/Trip.cs" Line="1" Column="1" />
+      <File FileName="MvcProjectSeyehat/Controllers/TravelController.cs" Line="51" Column="21" />
+      <File FileName="MvcProjectSeyehat/Views/Admin/Index.cshtml" Line="77" Column="1" />
+      <File FileName="MvcProjectSeyehat/Views/Shared/_AdminLayout.cshtml" Line="201" Column="1" />
+      <File FileName="MvcProjectSeyehat/Views/User/UserList.cshtml" Line="128" Column="1" />
+      <File FileName="MvcProjectSeyehat/Controllers/UserController.cs" Line="33" Column="10" />
+      <File FileName="MvcProjectSeyehat/Controllers/AccomodationsController.cs" Line="1" Column="1" />
+      <File FileName="MvcProjectSeyehat/Controllers/ActivitiesController.cs" Line="1" Column="1" />
+      <File FileName="MvcProjectSeyehat/Views/Transportations/Index.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,27 +21,20 @@
           <Node name="ApiProjectSeyehat" expanded="True">
             <Node name="ApiProjectSeyehat" expanded="True">
               <Node name="Controllers" expanded="True" />
+              <Node name="Migrations" expanded="True" />
               <Node name="Models" expanded="True" />
             </Node>
             <Node name="MvcProjectSeyehat">
-              <Node name="Models">
-                <Node name="ViewModels" expanded="True" />
+              <Node name="Controllers">
+                <Node name="TravelController.cs" selected="True" />
               </Node>
-              <Node name="Views" expanded="True">
-                <Node name="Admin" expanded="True" />
-                <Node name="Shared" expanded="True" />
-                <Node name="Travel" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
-                </Node>
-                <Node name="User" expanded="True" />
-              </Node>
+              <Node name="Models" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.ApiProjectSeyehat PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Birden Çok Proje" Name="Birden Çok Proje">
       <Items>
@@ -48,5 +43,6 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MvcProjectSeyehat PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

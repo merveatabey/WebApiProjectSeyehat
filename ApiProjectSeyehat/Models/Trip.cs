@@ -13,7 +13,7 @@ namespace ApiProjectSeyehat.Models
 		public string TripName { get; set; }
 		public DateTime StartDate { get; set; }
 		public DateTime EndDate{ get; set; }
-		public string Notes { get; set; }			//seyehatle ilgili notlar
+		public string Notes { get; set; }			//seyahatle ilgili notlar
 		public DateTime CreatedDate { get; set; }
 
 

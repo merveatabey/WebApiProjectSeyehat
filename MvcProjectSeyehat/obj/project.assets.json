@@ -3207,32 +3207,33 @@
     ]
   },
   "packageFolders": {
-    "/Users/a1-03/.nuget/packages/": {}
+    "/Users/mervesefil/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/a1-03/Projects/WebApiProjectSeyehat/MvcProjectSeyehat/MvcProjectSeyehat.csproj",
+      "projectUniqueName": "/Users/mervesefil/Projects/WebApiProjectSeyehat/MvcProjectSeyehat/MvcProjectSeyehat.csproj",
       "projectName": "MvcProjectSeyehat",
-      "projectPath": "/Users/a1-03/Projects/WebApiProjectSeyehat/MvcProjectSeyehat/MvcProjectSeyehat.csproj",
-      "packagesPath": "/Users/a1-03/.nuget/packages/",
-      "outputPath": "/Users/a1-03/Projects/WebApiProjectSeyehat/MvcProjectSeyehat/obj/",
+      "projectPath": "/Users/mervesefil/Projects/WebApiProjectSeyehat/MvcProjectSeyehat/MvcProjectSeyehat.csproj",
+      "packagesPath": "/Users/mervesefil/.nuget/packages/",
+      "outputPath": "/Users/mervesefil/Projects/WebApiProjectSeyehat/MvcProjectSeyehat/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/a1-03/.nuget/NuGet/NuGet.Config"
+        "/Users/mervesefil/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "/usr/local/share/dotnet/sdk/7.0.307/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/a1-03/Projects/WebApiProjectSeyehat/ApiProjectSeyehat/ApiProjectSeyehat.csproj": {
-              "projectPath": "/Users/a1-03/Projects/WebApiProjectSeyehat/ApiProjectSeyehat/ApiProjectSeyehat.csproj"
+            "/Users/mervesefil/Projects/WebApiProjectSeyehat/ApiProjectSeyehat/ApiProjectSeyehat.csproj": {
+              "projectPath": "/Users/mervesefil/Projects/WebApiProjectSeyehat/ApiProjectSeyehat/ApiProjectSeyehat.csproj"
             }
           }
         }
@@ -3241,11 +3242,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -3276,7 +3272,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.410/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
       }
     }
   }

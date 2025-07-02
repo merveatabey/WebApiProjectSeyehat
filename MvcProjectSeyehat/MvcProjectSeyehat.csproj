@@ -19,6 +19,9 @@
     <None Remove="Models\ViewModels\" />
     <None Remove="Views\User\" />
     <None Remove="Views\Travel\" />
+    <None Remove="Views\Activities\" />
+    <None Remove="Views\Accomodations\" />
+    <None Remove="Views\Transportations\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Login\" />
@@ -26,6 +29,9 @@
     <Folder Include="Models\ViewModels\" />
     <Folder Include="Views\User\" />
     <Folder Include="Views\Travel\" />
+    <Folder Include="Views\Activities\" />
+    <Folder Include="Views\Accomodations\" />
+    <Folder Include="Views\Transportations\" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.EntityFrameworkCore, Version=7.0.16.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" />

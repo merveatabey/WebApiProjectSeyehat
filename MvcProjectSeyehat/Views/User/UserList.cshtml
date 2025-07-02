@@ -1,10 +1,7 @@
-﻿@{ Layout = "~/Views/Shared/_AdminLayout.cshtml"; }
-
-
-
-@using MvcProjectSeyehat.Models.ViewModels
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
 @model List<ApiProjectSeyehat.Models.User>
-
 
 <div class="card mb-4">
     <div class="card-header d-flex justify-content-between align-items-center">
@@ -13,9 +10,9 @@
             Kullanıcı Listesi
         </span>
 
-        <a asp-action="Create" asp-controller="Personel" class="btn btn-success btn-sm">
+        <button class="btn btn-success btn-sm" onclick='openUserModal("create")'>
             <i class="fas fa-plus"></i> Kullanıcı Ekle
-        </a>
+        </button>
     </div>
     <div class="card-body">
         <table id="datatablesSimple" class="table table-bordered">
@@ -29,7 +26,6 @@
                     <th>İşlemler</th>
                 </tr>
             </thead>
-
             <tbody>
                 @foreach (var item in Model)
                 {
@@ -37,16 +33,14 @@
                         <td>@item.Name</td>
                         <td>@item.Email</td>
                         <td>@item.Password</td>
-                        <td>@item.CreatedTime</td>
+                        <td>@item.CreatedTime.ToString("dd.MM.yyyy HH:mm")</td>
                         <td>@item.Role</td>
-                  
                         <td>
-                            <a asp-action="Edit" asp-controller="User" asp-route-id="@item.UserId" class="btn btn-outline-warning btn-sm" onclick="edit(this)">Edit</a>
+                            <button class="btn btn-outline-warning btn-sm" onclick='openUserModal("edit", @Html.Raw(Json.Serialize(item)))'>Edit</button>
                             <form asp-action="Delete" asp-controller="User" method="post" style="display:inline" onsubmit="return del(this)">
                                 <input type="hidden" name="id" value="@item.UserId" />
                                 <button type="submit" class="btn btn-outline-danger btn-sm">Delete</button>
                             </form>
-
                         </td>
                     </tr>
                 }
@@ -55,29 +49,79 @@
     </div>
 </div>
 
-<script>function edit(element) {
+<!-- Modal -->
+<div class="modal fade" id="userModal" tabindex="-1" aria-labelledby="userModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <form id="userForm" method="post" asp-controller="User" asp-action="Save">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="userModalLabel">Kullanıcı</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Kapat"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="UserId" name="UserId" />
 
-        alert("Güncelleme sayfasına yönlendiriliyorsunuz!")
+                    <div class="mb-3">
+                        <label for="Name" class="form-label">Ad Soyad</label>
+                        <input type="text" class="form-control" id="Name" name="Name" required />
+                    </div>
 
-        //tüm satırlardaki seçimi kaldır (isteğe bağlı)
-        const rows = document.querySelectorAll('#datatablesSimple tbody tr');
-        rows.forEach(row => row.style.backgroundColor = '');
+                    <div class="mb-3">
+                        <label for="Email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="Email" name="Email" required />
+                    </div>
 
-        //tıklanana satırı bul
-        const tr = element.closest('tr');
-        //satırın arka plan rengini değiştir
-        tr.style.backgroundColor = '#fff3cd';
+                    <div class="mb-3">
+                        <label for="Password" class="form-label">Şifre</label>
+                        <input type="text" class="form-control" id="Password" name="Password" required />
+                    </div>
 
-    }
+                    <div class="mb-3">
+                        <label for="Role" class="form-label">Rol</label>
+                        <select class="form-select" id="Role" name="Role">
+                            <option value="admin">Admin</option>
+                            <option value="user">User</option>
+                        </select>
+                    </div>
 
-    function del(element) {
+                    <input type="hidden" id="CreatedTime" name="CreatedTime" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+                    <button type="submit" class="btn btn-primary">Kaydet</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
 
-        const rows = document.querySelectorAll('#datatableSimple tbody tr');
-        rows.forEach(row => row.style.backgroundColor = '');
+@section Scripts {
+    <script>function openUserModal(mode, data = null) {
+            const modalTitle = document.getElementById("userModalLabel");
+            const form = document.getElementById("userForm");
 
-        const tr = element.closest('tr');
-        tr.style.backgroundColor = '#f8d7da';
+            if (mode === "create") {
+                modalTitle.innerText = "Yeni Kullanıcı Ekle";
+                form.reset();
+                document.getElementById("CreatedTime").value = new Date().toISOString();
+                document.getElementById("UserId").value = 0;
+            } else if (mode === "edit" && data) {
+                modalTitle.innerText = "Kullanıcıyı Güncelle";
+                document.getElementById("UserId").value = data.UserId;
+                document.getElementById("Name").value = data.Name;
+                document.getElementById("Email").value = data.Email;
+                document.getElementById("Password").value = data.Password;
+                document.getElementById("Role").value = data.Role;
+                document.getElementById("CreatedTime").value = data.CreatedTime;
+            }
 
-        return true;
-    }</script>
+            const modal = new bootstrap.Modal(document.getElementById("userModal"));
+            modal.show();
+        }
 
+        function del(element) {
+            const tr = element.closest('tr');
+            tr.style.backgroundColor = '#f8d7da';
+            return confirm("Silmek istediğinize emin misiniz?");
+        }</script>
+}

@@ -13,7 +13,7 @@
             Seyahat Listesi
         </span>
 
-        <a asp-action="Create" asp-controller="Personel" class="btn btn-success btn-sm">
+        <a asp-action="Create" asp-controller="Travel" class="btn btn-success btn-sm">
             <i class="fas fa-plus"></i> Seyahat Ekle
         </a>
     </div>
@@ -22,7 +22,6 @@
             <thead>
                 <tr>
                     <th>Seyahat</th>
-                    <th>Kullanıcı No</th>
                     <th>Başlangıç Tarihi</th>
                     <th>Bitiş Tarihi</th>
                     <th>Not</th>
@@ -36,7 +35,6 @@
                 {
                     <tr>
                         <td>@item.TripName</td>
-                        <td>@item.UserId</td>
                         <td>@item.StartDate</td>
                         <td>@item.EndDate</td>
                         <td>@item.Notes</td>
@@ -56,6 +54,7 @@
         </table>
     </div>
 </div>
+
 
 <script>function edit(element) {
 
