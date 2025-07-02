@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/MvcProjectSeyehat.csproj": {}
+    "/Users/a1-03/Projects/WebApiProjectSeyehat/MvcProjectSeyehat/MvcProjectSeyehat.csproj": {}
   },
   "projects": {
-    "/Users/mervesefil/Desktop/WebApiProjectSeyehat/ApiProjectSeyehat/ApiProjectSeyehat.csproj": {
+    "/Users/a1-03/Projects/WebApiProjectSeyehat/ApiProjectSeyehat/ApiProjectSeyehat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/ApiProjectSeyehat/ApiProjectSeyehat.csproj",
+        "projectUniqueName": "/Users/a1-03/Projects/WebApiProjectSeyehat/ApiProjectSeyehat/ApiProjectSeyehat.csproj",
         "projectName": "ApiProjectSeyehat",
-        "projectPath": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/ApiProjectSeyehat/ApiProjectSeyehat.csproj",
-        "packagesPath": "/Users/mervesefil/.nuget/packages/",
-        "outputPath": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/ApiProjectSeyehat/obj/",
+        "projectPath": "/Users/a1-03/Projects/WebApiProjectSeyehat/ApiProjectSeyehat/ApiProjectSeyehat.csproj",
+        "packagesPath": "/Users/a1-03/.nuget/packages/",
+        "outputPath": "/Users/a1-03/Projects/WebApiProjectSeyehat/ApiProjectSeyehat/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/mervesefil/.nuget/NuGet/NuGet.Config"
+          "/Users/a1-03/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/sdk/7.0.307/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -33,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -87,35 +91,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.410/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/MvcProjectSeyehat.csproj": {
+    "/Users/a1-03/Projects/WebApiProjectSeyehat/MvcProjectSeyehat/MvcProjectSeyehat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/MvcProjectSeyehat.csproj",
+        "projectUniqueName": "/Users/a1-03/Projects/WebApiProjectSeyehat/MvcProjectSeyehat/MvcProjectSeyehat.csproj",
         "projectName": "MvcProjectSeyehat",
-        "projectPath": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/MvcProjectSeyehat.csproj",
-        "packagesPath": "/Users/mervesefil/.nuget/packages/",
-        "outputPath": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/MvcProjectSeyehat/obj/",
+        "projectPath": "/Users/a1-03/Projects/WebApiProjectSeyehat/MvcProjectSeyehat/MvcProjectSeyehat.csproj",
+        "packagesPath": "/Users/a1-03/.nuget/packages/",
+        "outputPath": "/Users/a1-03/Projects/WebApiProjectSeyehat/MvcProjectSeyehat/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/mervesefil/.nuget/NuGet/NuGet.Config"
+          "/Users/a1-03/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/sdk/7.0.307/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/mervesefil/Desktop/WebApiProjectSeyehat/ApiProjectSeyehat/ApiProjectSeyehat.csproj": {
-                "projectPath": "/Users/mervesefil/Desktop/WebApiProjectSeyehat/ApiProjectSeyehat/ApiProjectSeyehat.csproj"
+              "/Users/a1-03/Projects/WebApiProjectSeyehat/ApiProjectSeyehat/ApiProjectSeyehat.csproj": {
+                "projectPath": "/Users/a1-03/Projects/WebApiProjectSeyehat/ApiProjectSeyehat/ApiProjectSeyehat.csproj"
               }
             }
           }
@@ -124,11 +127,22 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -148,7 +162,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.410/RuntimeIdentifierGraph.json"
         }
       }
     }

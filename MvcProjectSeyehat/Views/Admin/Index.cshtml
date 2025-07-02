@@ -1,0 +1,108 @@
+﻿@{ Layout = "~/Views/Shared/_AdminLayout.cshtml"; }
+
+@using MvcProjectSeyehat.Models.ViewModels
+@model DashboardViewModel
+
+
+
+        <!-- Kullanıcı Listesi -->
+        <div class="row w-100 justify-content-center mb-4">
+            <div class="col-12" style="max-width: 1200px;">
+                <div class="card" style="max-height: 400px; overflow-y: auto;">
+                    <div class="card-body pb-0">
+                        <h4 class="card-title">Kullanıcılar</h4>
+                        <p class="card-subtitle mb-3">Admin</p>
+                        @foreach (var admin in Model.adminUsers)
+                        {
+                            <div class="py-3 d-flex align-items-center border-bottom">
+                                <span class="btn btn-primary rounded-circle round-48 hstack justify-content-center">
+                                    <i class="ti ti-user fs-6"></i>
+                                </span>
+                                <div class="ms-3">
+                                    <h5 class="mb-0 fw-bolder fs-4">@admin.Name</h5>
+                                    <span class="text-muted fs-3">Rol: @admin.Role</span><br />
+                                    <span class="text-muted fs-3">Kayıt Tarihi: @admin.CreatedTime.ToString("dd.MM.yyyy")</span>
+                                </div>
+                                <div class="ms-auto">
+                                    <a href="@Url.Action("Update", "Admin", new { id = admin.UserId })" class="btn btn-sm btn-outline-primary">Düzenle</a>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Seyahat Tablosu -->
+        <div class="row w-100 justify-content-center mb-4">
+            <div class="col-12" style="max-width: 1200px;">
+                <div class="card" style="max-height: 450px; overflow-y: auto;">
+                    <div class="card-body">
+                        <h4 class="card-title">Seyahatler</h4>
+                        <p class="card-subtitle mb-3">Yaklaşan Seyahat Programları</p>
+                        <div class="table-responsive" style="max-height: 350px; overflow-y: auto;">
+                            <table class="table mb-0 text-nowrap variant-table align-middle fs-3">
+                                <thead>
+                                    <tr>
+                                        <th>Seyahat</th>
+                                        <th>Başlangıç Tarihi</th>
+                                        <th>Bitiş Tarihi</th>
+                                        <th>Not</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model.travelViews)
+                                    {
+                                        <tr>
+                                            <td>@item.TripName</td>
+                                            <td>@item.StartDate.ToString("dd.MM.yyyy")</td>
+                                            <td>@item.EndDate.ToString("dd.MM.yyyy")</td>
+                                            <td>@item.Notes</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Katılımcı Listesi -->
+        <div class="row w-100 justify-content-center">
+            <div class="col-12" style="max-width: 1200px;">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title mb-0">Katılımcı Listesi</h4>
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="table-responsive">
+                            <table class="table table-striped mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>Katılımcı Adı</th>
+                                        <th>Mail</th>
+                                        <th>Trip Adı</th>
+                                        <th>Başlangıç Tarihi</th>
+                                        <th>Bitiş Tarihi</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model.travelPartViews)
+                                    {
+                                        <tr>
+                                            <td>@item.ParticipantName</td>
+                                            <td>@item.ParticipantMail</td>
+                                            <td>@item.TripName</td>
+                                            <td>@item.StartDate.ToString("dd.MM.yyyy")</td>
+                                            <td>@item.EndDate.ToString("dd.MM.yyyy")</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
