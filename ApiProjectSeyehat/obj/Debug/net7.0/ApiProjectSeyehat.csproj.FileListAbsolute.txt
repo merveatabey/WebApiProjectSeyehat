@@ -220,7 +220,6 @@
 /Users/a1-03/Projects/WebApiProjectSeyehat/ApiProjectSeyehat/obj/Debug/net7.0/staticwebassets.build.json
 /Users/a1-03/Projects/WebApiProjectSeyehat/ApiProjectSeyehat/obj/Debug/net7.0/staticwebassets.development.json
 /Users/a1-03/Projects/WebApiProjectSeyehat/ApiProjectSeyehat/obj/Debug/net7.0/scopedcss/bundle/ApiProjectSeyehat.styles.css
-/Users/a1-03/Projects/WebApiProjectSeyehat/ApiProjectSeyehat/obj/Debug/net7.0/ApiProjectSeyehat.csproj.CopyComplete
 /Users/a1-03/Projects/WebApiProjectSeyehat/ApiProjectSeyehat/obj/Debug/net7.0/ApiProjectSeyehat.dll
 /Users/a1-03/Projects/WebApiProjectSeyehat/ApiProjectSeyehat/obj/Debug/net7.0/refint/ApiProjectSeyehat.dll
 /Users/a1-03/Projects/WebApiProjectSeyehat/ApiProjectSeyehat/obj/Debug/net7.0/ApiProjectSeyehat.pdb
@@ -302,3 +301,5 @@
 /Users/mervesefil/Projects/WebApiProjectSeyehat/ApiProjectSeyehat/obj/Debug/net7.0/ApiProjectSeyehat.pdb
 /Users/mervesefil/Projects/WebApiProjectSeyehat/ApiProjectSeyehat/obj/Debug/net7.0/ApiProjectSeyehat.genruntimeconfig.cache
 /Users/mervesefil/Projects/WebApiProjectSeyehat/ApiProjectSeyehat/obj/Debug/net7.0/ref/ApiProjectSeyehat.dll
+/Users/a1-03/Projects/WebApiProjectSeyehat/ApiProjectSeyehat/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/a1-03/Projects/WebApiProjectSeyehat/ApiProjectSeyehat/obj/Debug/net7.0/ApiProjectSeyehat.csproj.CopyComplete

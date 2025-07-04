@@ -36,7 +36,7 @@
     "MvcProjectSeyehat": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:20093;http://localhost:19076",
+      "applicationUrl": "https://localhost:8169;http://localhost:26658",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

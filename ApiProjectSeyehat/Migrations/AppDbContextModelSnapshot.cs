@@ -146,9 +146,6 @@ namespace ApiProjectSeyehat.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("TripId")
-                        .HasColumnType("int");
-
                     b.Property<string>("Type")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -179,12 +176,16 @@ namespace ApiProjectSeyehat.Migrations
                     b.Property<DateTime>("StartDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("TripName")
+                    b.Property<int>("TransportationId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("TripImg")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
+                    b.Property<string>("TripName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("TripId");
 
@@ -211,6 +212,29 @@ namespace ApiProjectSeyehat.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("TripDestinations");
+                });
+
+            modelBuilder.Entity("ApiProjectSeyehat.Models.TripUser", b =>
+                {
+                    b.Property<int>("TUId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TUId"));
+
+                    b.Property<int>("TripId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("TUId");
+
+                    b.HasIndex("TripId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("TripUsers");
                 });
 
             modelBuilder.Entity("ApiProjectSeyehat.Models.User", b =>
@@ -243,6 +267,35 @@ namespace ApiProjectSeyehat.Migrations
                     b.HasKey("UserId");
 
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("ApiProjectSeyehat.Models.TripUser", b =>
+                {
+                    b.HasOne("ApiProjectSeyehat.Models.Trip", "Trip")
+                        .WithMany("TripUsers")
+                        .HasForeignKey("TripId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ApiProjectSeyehat.Models.User", "User")
+                        .WithMany("TripUsers")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Trip");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("ApiProjectSeyehat.Models.Trip", b =>
+                {
+                    b.Navigation("TripUsers");
+                });
+
+            modelBuilder.Entity("ApiProjectSeyehat.Models.User", b =>
+                {
+                    b.Navigation("TripUsers");
                 });
 #pragma warning restore 612, 618
         }

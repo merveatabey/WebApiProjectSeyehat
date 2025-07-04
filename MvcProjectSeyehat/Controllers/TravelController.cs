@@ -34,7 +34,7 @@ namespace MvcProjectSeyehat.Controllers
         {
             StringContent content = new StringContent(JsonConvert.SerializeObject(trip), System.Text.Encoding.UTF8, "application/json");
             var response = client.PostAsync("https://localhost:7159/api/Trip/AddTrip", content).Result;
-            return RedirectToAction("ındex");
+            return RedirectToAction("Index");
         }
 
 

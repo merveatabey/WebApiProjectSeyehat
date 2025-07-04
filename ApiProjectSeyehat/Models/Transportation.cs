@@ -8,8 +8,6 @@ namespace ApiProjectSeyehat.Models
 	{
 		[Key]
 		public int TransportationId { get; set; }
-		[ForeignKey("Trip")]
-		public int TripId { get; set; }
 		public string Type { get; set; }        //ulaşım türü
 		public string From { get; set; }            //kalkış noktası
 		public string To { get; set; }              //varış noktası

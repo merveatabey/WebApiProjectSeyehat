@@ -17,7 +17,9 @@ namespace ApiProjectSeyehat.Models
 		public DbSet<Destination> Destinations { get; set; }
 		public DbSet<Accomodation> Accomodations { get; set; }
 		public DbSet<Activity> Activities { get; set; }
+        public DbSet<TripUser> TripUsers { get; set; }  // TripUser tablosu
 
-	}
+
+    }
 }
 

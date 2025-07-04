@@ -44,20 +44,20 @@ namespace MvcProjectSeyehat.Controllers
                 Notes = t.Notes
             }).ToList();
 
-         
 
-            var participants = (from tp in _context.Trips
-                                    join u in _context.Users on tp.UserId equals u.UserId
-                                    select new TravelPartViewModel
-                                    {
-                                        ParticipantName = u.Name,
-                                        ParticipantMail = u.Email,
-                                        TripId = tp.TripId,
-                                        TripName = tp.TripName,
-                                        StartDate = tp.StartDate,
-                                        EndDate = tp.EndDate
-                                       
-                                    }).ToList();
+
+            var participants = (from tu in _context.TripUsers
+                                join u in _context.Users on tu.UserId equals u.UserId
+                                join tp in _context.Trips on tu.TripId equals tp.TripId
+                                select new TravelPartViewModel
+                                {
+                                    ParticipantName = u.Name,
+                                    ParticipantMail = u.Email,
+                                    TripId = tp.TripId,
+                                    TripName = tp.TripName,
+                                    StartDate = tp.StartDate,
+                                    EndDate = tp.EndDate
+                                }).ToList();    
 
 
 

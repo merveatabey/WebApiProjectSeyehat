@@ -1,6 +1,142 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
+@model List<ApiProjectSeyehat.Models.Accomodation>
 
+<div class="card mb-4">
+    <div class="card-header d-flex justify-content-between align-items-center">
+        <span>
+            <i class="fas fa-table me-1"></i>
+            Konaklama Listesi
+        </span>
+
+        <button class="btn btn-success btn-sm" onclick='openAccomodationModal("create")'>
+            <i class="fas fa-plus"></i> Konaklama Yeri Ekle
+        </button>
+
+    </div>
+    <div class="card-body">
+        <table id="datatablesSimple" class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Seyahat No</th>
+                    <th>Konaklama Yeri</th>
+                    <th>Adress</th>
+                    <th>Giriş Tarihi Tarihi</th>
+                    <th>Çıkış Tarihi</th>
+                    <th>Gecelik Fiyatı</th>
+                    <th>İşlemler</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.TripId</td>
+                        <td>@item.Name</td>
+                        <td>@item.Address</td>
+                        <td>@item.CheckInDate</td>
+                        <td>@item.CheckOutDate</td>
+                        <td>@item.Price</td>
+                        <td>
+                            <button class="btn btn-outline-warning btn-sm" onclick='openAccomodationModal("edit", @Html.Raw(Json.Serialize(item)))'>Düzenle</button>
+                            <form asp-action="Delete" asp-controller="User" method="post" style="display:inline" onsubmit="return del(this)">
+                                <input type="hidden" name="id" value="@item.AccomodationId" />
+                                <button type="submit" class="btn btn-outline-danger btn-sm">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="accomodationModal" tabindex="-1" aria-labelledby="accomodationModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <form id="accomodationForm" method="post" asp-controller="Accomodation" asp-action="Save">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="accomodationModalLabel">Konaklama Yeri</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Kapat"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="AccomodationId" name="AccomodationId" />
+                    <input type="hidden" id="TripId" name="TripId" />
+
+                    <div class="mb-3">
+                        <label for="Name" class="form-label">Konaklama Yeri</label>
+                        <input type="text" class="form-control" id="Name" name="Name" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="Address" class="form-label">Adres</label>
+                        <input type="text" class="form-control" id="Address" name="Address" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="CheckInDate" class="form-label">Giriş Tarihi</label>
+                        <input type="date" class="form-control" id="CheckInDate" name="CheckInDate" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="CheckOutDate" class="form-label">Çıkış Tarihi</label>
+                        <input type="date" class="form-control" id="CheckOutDate" name="CheckOutDate" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="Price" class="form-label">Gecelik Fiyat</label>
+                        <input type="number" class="form-control" id="Price" name="Price" required />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+                    <button type="submit" class="btn btn-primary">Kaydet</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+@section Scripts {
+    <script>
+        function openAccomodationModal(mode, data = null) {
+            if (typeof data === "string") {
+                data = JSON.parse(data);
+            }
+
+            const modalTitle = document.getElementById("accomodationModalLabel");
+            const form = document.getElementById("accomodationForm");
+
+            if (mode === "create") {
+                modalTitle.innerText = "Yeni Konaklama Yeri Ekle";
+                form.reset();
+                document.getElementById("AccomodationId").value = 0;
+            } else if (mode === "edit" && data) {
+                modalTitle.innerText = "Konaklama Yerini Güncelle";
+                document.getElementById("AccomodationId").value = data.AccomodationId ?? "";
+                document.getElementById("TripId").value = data.TripId ?? "";
+                document.getElementById("Name").value = data.Name ?? "";
+                document.getElementById("Address").value = data.Address ?? "";
+
+                // Güvenli substring kullanımı:
+                document.getElementById("CheckInDate").value = data.CheckInDate ? data.CheckInDate.substring(0, 10) : "";
+                document.getElementById("CheckOutDate").value = data.CheckOutDate ? data.CheckOutDate.substring(0, 10) : "";
+
+                document.getElementById("Price").value = data.Price ?? "";
+            }
+
+            const modal = new bootstrap.Modal(document.getElementById("accomodationModal"));
+            modal.show();
+        }
+
+        function del(element) {
+            const tr = element.closest('tr');
+            tr.style.backgroundColor = '#f8d7da';
+            return confirm("Silmek istediğinize emin misiniz?");
+        }</script>
+}
